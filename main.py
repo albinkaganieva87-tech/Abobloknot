@@ -439,7 +439,7 @@ def update_menu_text():
     menu.add_command(label=lang["basicfont"], command=ret2)
     menu.add_command(label=lang["basicenc"], command=ret3)
     menu.add_command(label=lang["basicset"], command=ret3)
-    menu.add_command(label="AI", command=AI)
+   # menu.add_command(label="AI", command=AI)
 update_menu_text()
 h_scroll.config(command=textArea.xview)
 v_scroll.config(command=textArea.yview)
